@@ -1,0 +1,20 @@
+{
+  "name": "siltaria",
+  "version": "1.0.0",
+  "description": "Website für den Minecraft-Server Siltaria",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/blobs": "^10.7.9",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
