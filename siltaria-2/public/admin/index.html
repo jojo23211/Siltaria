@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Siltaria – Admin Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css" />
+<link rel="stylesheet" href="admin.css" />
+</head>
+<body class="admin-body">
+
+<!-- LOGIN SCREEN -->
+<div class="login-screen" id="login-screen">
+  <form class="login-card" id="login-form">
+    <span class="logo">SILTARIA</span>
+    <p class="login-sub">Admin-Panel</p>
+    <input type="password" id="login-password" placeholder="Admin-Passwort" autocomplete="current-password" />
+    <button type="submit" class="btn btn-accent">Anmelden</button>
+    <p class="login-error" id="login-error"></p>
+  </form>
+</div>
+
+<!-- DASHBOARD -->
+<div class="dashboard" id="dashboard" hidden>
+  <aside class="sidebar">
+    <span class="logo">SILTARIA</span>
+    <p class="sidebar-sub">Admin-Panel</p>
+    <nav class="sidebar-nav" id="sidebar-nav">
+      <button data-tab="general" class="active">Allgemein</button>
+      <button data-tab="design">Design</button>
+      <button data-tab="about">Über uns</button>
+      <button data-tab="features">Features</button>
+      <button data-tab="rules">Regeln</button>
+      <button data-tab="team">Team & Bewerbung</button>
+      <button data-tab="discord">Community</button>
+      <button data-tab="gallery">Galerie</button>
+      <button data-tab="faq">FAQ</button>
+      <button data-tab="privacy">Datenschutz</button>
+      <button data-tab="password">Passwort</button>
+    </nav>
+    <a href="/" class="sidebar-view-site" target="_blank">Website ansehen ↗</a>
+    <button class="sidebar-logout" id="logout-btn">Abmelden</button>
+  </aside>
+
+  <main class="main">
+    <header class="main-header">
+      <h1 id="tab-title">Allgemein</h1>
+      <div class="header-actions">
+        <span class="save-status" id="save-status"></span>
+        <button class="btn btn-accent" id="save-btn">Änderungen speichern</button>
+      </div>
+    </header>
+
+    <div class="main-content" id="tab-content">
+      <!-- rendered dynamically by admin.js -->
+    </div>
+  </main>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

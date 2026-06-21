@@ -1,0 +1,157 @@
+{
+  "general": {
+    "serverName": "SILTARIA",
+    "ip": "play.siltaria.net",
+    "ipBedrock": "play.siltaria.net (Port 19132)",
+    "headline": "Schicht für Schicht wächst etwas Echtes.",
+    "claim": "Ein Survival-Server für Java & Bedrock, auf dem dein Aufbau zählt – kein Pay-to-Win, kein Stress, nur eine faire Welt zum Wachsen.",
+    "statusApiUrl": "https://api.mcsrvstat.us/3/play.siltaria.net",
+    "version": "1.21.x · Java & Bedrock (Crossplay)"
+  },
+  "design": {
+    "colors": {
+      "bg": "#0E1B1A",
+      "bgAlt": "#142624",
+      "accent": "#D4A85A",
+      "jade": "#6FAE99",
+      "text": "#F2E9D8"
+    },
+    "fonts": {
+      "heading": "Fraunces",
+      "body": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "radius": "14"
+  },
+  "about": {
+    "title": "Über Siltaria",
+    "text": "Siltaria ist ein Vanilla+ Survival-Server – wir bauen auf dem normalen Minecraft-Erlebnis auf und ergänzen es mit ein paar sinnvollen Komforts: Grundstücksschutz, eine ehrliche Economy und eine Community, die aufeinander achtet. Es gibt keinen Shop, in dem man sich Vorteile erkaufen kann. Jede Schicht deines Fortschritts entsteht durch Zeit, Geduld und Zusammenarbeit – genau wie die Sedimentschichten, nach denen der Server benannt ist.",
+    "layerLabels": [
+      "Ankunft",
+      "Aufbau",
+      "Gemeinschaft",
+      "Vermächtnis"
+    ]
+  },
+  "features": [
+    {
+      "icon": "shield",
+      "title": "Grundstücksschutz",
+      "text": "Claime dein Land mit wenigen Klicks und schütze deine Bauten zuverlässig vor Griefing."
+    },
+    {
+      "icon": "coin",
+      "title": "Faire Economy",
+      "text": "Handel mit anderen Spielern, verdiene Geld durch Arbeit – kein Pay-to-Win, niemals."
+    },
+    {
+      "icon": "map",
+      "title": "Große Map",
+      "text": "Eine weitläufige, frische Welt mit viel Platz für Basen, Dörfer und Projekte."
+    },
+    {
+      "icon": "team",
+      "title": "Aktives Team",
+      "text": "Erfahrene Moderatoren und Admins sind regelmäßig online und für euch da."
+    },
+    {
+      "icon": "leaf",
+      "title": "Vanilla+",
+      "text": "Das klassische Minecraft-Gefühl, sinnvoll erweitert – ohne überladene Plugins."
+    },
+    {
+      "icon": "star",
+      "title": "Community-Events",
+      "text": "Regelmäßige Bauwettbewerbe, Minigames und saisonale Events für alle."
+    }
+  ],
+  "rules": [
+    "Behandle andere Spieler und das Team mit Respekt – kein Hass, kein Mobbing.",
+    "Griefing, Diebstahl und Betrug außerhalb geschützter PvP-Zonen sind verboten.",
+    "Keine Cheats, Hacks, X-Ray-Texturen oder Exploits jeglicher Art.",
+    "Keine Werbung für andere Server oder Discord-Communities ohne Erlaubnis des Teams."
+  ],
+  "discord": {
+    "title": "Tritt unserer Community bei",
+    "text": "Auf unserem Discord findest du Ankündigungen, Support, Trading-Channels und eine Community, die genauso gerne baut wie du.",
+    "link": "https://discord.gg/siltaria",
+    "memberCountLabel": "Mitglieder in unserer Community"
+  },
+  "gallery": [
+    {
+      "label": "Spawn-Bereich"
+    },
+    {
+      "label": "Spielerstadt"
+    },
+    {
+      "label": "Farmland"
+    },
+    {
+      "label": "Community-Bauwerk"
+    },
+    {
+      "label": "Nether-Hub"
+    },
+    {
+      "label": "Event-Arena"
+    }
+  ],
+  "team": [
+    {
+      "name": "Notch_Siltaria",
+      "role": "Owner",
+      "bio": "Gründer von Siltaria, verantwortlich für Vision und Technik."
+    },
+    {
+      "name": "JadeMira",
+      "role": "Admin",
+      "bio": "Kümmert sich um Server-Stabilität und das Team."
+    },
+    {
+      "name": "AmberFenn",
+      "role": "Moderator",
+      "bio": "Erste Anlaufstelle bei Fragen und Problemen im Spiel."
+    }
+  ],
+  "recruitment": {
+    "title": "Bewerbung – Werde Teil des Teams",
+    "text": "Wir suchen laufend motivierte Spieler, die unserer Community etwas zurückgeben möchten. Schau dir die Anforderungen für die einzelnen Ränge an und bewirb dich über unseren Discord im Bewerbungs-Channel.",
+    "requirements": [
+      {
+        "rang": "Helper",
+        "anforderungen": "Mindestens 30 Tage aktiv auf dem Server, 16 Jahre oder älter, freundlich und hilfsbereit im Chat."
+      },
+      {
+        "rang": "Moderator",
+        "anforderungen": "Erfahrung als Helper, gute Kenntnis der Regeln, ruhiges und besonnenes Auftreten in Konfliktsituationen."
+      },
+      {
+        "rang": "Builder",
+        "anforderungen": "Aussagekräftiges Bau-Portfolio (Bilder/Welt-Download), Erfahrung mit WorldEdit von Vorteil."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Ist Siltaria wirklich kostenlos?",
+      "a": "Ja. Es gibt keinen Shop und keine Möglichkeit, sich In-Game-Vorteile zu erkaufen. Der Server finanziert sich ausschließlich über freiwillige Spenden für die Serverkosten."
+    },
+    {
+      "q": "Kann ich mit Bedrock Edition spielen?",
+      "a": "Ja, Siltaria unterstützt Crossplay zwischen Java und Bedrock Edition über denselben Server."
+    },
+    {
+      "q": "Wie schütze ich mein Grundstück?",
+      "a": "Mit unserem Claim-System kannst du dein Land beanspruchen und so vor fremdem Zugriff schützen. Eine Anleitung findest du auf unserem Discord."
+    },
+    {
+      "q": "Wie kann ich mich bewerben?",
+      "a": "Eine Übersicht der offenen Ränge und Anforderungen findest du im Bereich „Team“ ganz unten unter „Bewerbung“."
+    }
+  ],
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "text": "Diese Website erhebt grundsätzlich keine personenbezogenen Daten, die nicht zur Bereitstellung der Inhalte technisch notwendig sind. Beim Aufruf der Seite werden vom Hosting-Anbieter automatisch technische Verbindungsdaten (z. B. IP-Adresse, Zeitpunkt des Zugriffs) protokolliert, um den Betrieb der Website sicherzustellen. Diese Daten werden nicht mit anderen Datenquellen zusammengeführt.\n\nDer auf dieser Website verfügbare „Verbinden“-Bereich speichert deinen eingegebenen Minecraft-Namen nicht dauerhaft und überträgt ihn lediglich an den externen Dienst mc-heads.net, um ein Vorschaubild deines Minecraft-Kopfes anzuzeigen. Es handelt sich dabei nicht um ein echtes Login – es werden keine Passwörter abgefragt oder gespeichert.\n\nFür Fragen zum Datenschutz wende dich bitte an das Server-Team über unseren Discord-Server. Diese Datenschutzerklärung ist als Platzhalter gedacht und sollte vor dem produktiven Einsatz von einer rechtlich geprüften Fassung ersetzt werden."
+  }
+}
